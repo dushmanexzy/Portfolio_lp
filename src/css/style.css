@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'Gilroy';
+  src: url("../fonts/Gilroy-Medium.woff2") format("woff2"), url("../fonts/Gilroy-Medium.woff") format("woff");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url("../fonts/Gilroy-Bold.woff2") format("woff2"), url("../fonts/Gilroy-Bold.woff") format("woff");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap; }
+
+html {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 1445px;
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff; }
+
+img {
+  max-width: 100%; }
+
+a {
+  text-decoration: none; }
+
+.flex {
+  display: flex; }
+
+.list-style-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.page-container {
+  overflow: hidden; }
+
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 940px; }
+
+.header {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px; }
+
+.header__container {
+  padding-top: 29px; }
+
+.nav__list {
+  justify-content: space-between;
+  align-items: center; }

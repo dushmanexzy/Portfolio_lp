@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Landing Page</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="./css/main.min.css">
+</head>
+
+<body>
+  <div class="page-container">
+    <header class="header">
+      <div class="container header__container">
+        <nav class="nav header__nav">
+          <ul class="nav__list flex list-style-reset">
+            <li class="nav__item">
+              <a href="#" class="nav__link active">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">About me</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Portfolio</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="main-info">
+        <div class="container main-info__container">
+          <h1 class="main-info__title section-title">Denis Novik</h1>
+
+          <p class="main-info__desc">UX | UI designer
+            <span class="main-info__desc--sub">24 years old, Minsk</span>
+          </p>
+
+          <p class="main-info__lang">
+            <button class="main-infot__lang--ru">RU</button>
+            <button class="main-info__lang--eng">ENG</button>
+          </p>
+
+          <img class="main-info__img" src="img/main_photo.png" alt="Denis Novik with a beard and glasses">
+        </div>
+      </section>
+
+      <section class="about">
+        <div class="container about__container">
+          <h2 class="section-title">About me</h2>
+
+          <p class="about__desc">Hi, I'm Denis – UX/UI designer from Minsk. I'm interested in design and everything
+            connected with it</p>
+          <p class="about__desc">I'm studying at courses "Web and mobile design interfaces" in IT-Academy</p>
+          <p class="about__desc">Ready to implement excellent projects with wonderful people</p>
+        </div>
+      </section>
+
+      <section class="skills">
+        <div class="container skills__container">
+          <h2 class="section__title">Skills</h2>
+
+          <p class="skills__subtitle">I work in such programs as</p>
+
+          <!-- icons ??? -->
+          <ul class="skills__list list-style-reset">
+            <li class="skills__item">
+              <figure class="skills__icons">
+                <img class="icons icons--ps" src="/img/svg/Ps.svg" alt="Photoshop icon">
+                <figcaption>Adobe Photoshop</figcaption>
+              </figure>
+              <ul class="stars list-style-reset">
+                <li class="stars__item">star</li>
+                <li class="stars__item">star</li>
+                <li class="stars__item">star</li>
+                <li class="stars__item">star</li>
+                <li class="stars__item not-active">star</li>
+              </ul>
+            </li>
+            <li class="skills__item">
+              <figure class="skills__icons">
+                <img class="icons--ai" src="/img/svg/Ai.svg" alt="Illustrator icon">
+                <figcaption>Adobe Illustrator</figcaption>
+              </figure>
+              <ul class="stars list-style-reset">
+                <li class="stars__item">star</li>
+                <li class="stars__item">star</li>
+                <li class="stars__item">star</li>
+                <li class="stars__item not-active">star</li>
+                <li class="stars__item not-active">star</li>
+              </ul>
+            </li>
+            <li class="skills__item">
+              <figure class="skills__icons">
+                <img class="icons--ae" src="/img/svg/Ae.svg" alt="After Effects icon">
+                <figcaption>Adobe After Effects</figcaption>
+              </figure>
+              <ul class="stars list-style-reset">
+                <li class="stars__item">star</li>
+                <li class="stars__item">star</li>
+                <li class="stars__item">star</li>
+                <li class="stars__item">star</li>
+                <li class="stars__item not-active">star</li>
+              </ul>
+            </li>
+            <li class="skills__item">
+              <figure class="skills__icons">
+                <img class="icons--figma" src="/img/svg/Figma.svg" alt="Figma icon">
+                <figcaption>Figma</figcaption>
+              </figure>
+              <ul class="stars list-style-reset">
+                <li class="stars__item">star</li>
+                <li class="stars__item">star</li>
+                <li class="stars__item">star</li>
+                <li class="stars__item">star</li>
+                <li class="stars__item not-active">star</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="portfolio">
+        <div class="container portfolio__container">
+          <h2 class="section-title">Portfolio</h2>
+
+          <!-- figure class ???? -->
+          <ul class="portfolio__list list-style-reset">
+            <li class="portfolio__item">
+              <figure>
+                <img src="/img/online_fashion_store.png" alt="Concept homepage online fashion store">
+                <figcaption>
+                  <a href="#">Online fashion store - Homepage</a>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="portfolio__item">
+              <figure>
+                <img src="/img/reebok_store.png" alt="Concept Reebok store">
+                <figcaption>
+                  <a href="#">Reebok store - Concept</a>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="portfolio__item">
+              <figure>
+                <img src="/img/braun_lp.png" alt="Concept Braun Landing Page">
+                <figcaption>
+                  <a href="#">Braun Landing Page - Concept</a>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer contacts">
+      <h2 class="section-title">Contacts</h2>
+
+      <p class="contacts__desc">Want to know more or just chat? You are welcome!</p>
+
+      <button class="btn btn--reset contacts__btn" type="button">Send message</button>
+
+      <ul class="contacts__list list-style-reset">
+        <li class="contacts__item">
+          <a href="#" class="contacts__link linkedin">linkedin</a>
+        </li>
+        <li class="contacts__item">
+          <a href="#" class="contacts__link instagram">instagram</a>
+        </li>
+        <li class="contacts__item">
+          <a href="#" class="contacts__link behance">behance</a>
+        </li>
+        <li class="contacts__item">
+          <a href="#" class="contacts__link dribble">dribble</a>
+        </li>
+      </ul>
+
+      <p class="contacts__smalldesc">Like me on
+        <span class="contacts__smalldesc--sub">LinkedIn, Instagram, Behance, Dribble</span>
+      </p>
+    </footer>
+  </div>
+</body>
+
+</html>
