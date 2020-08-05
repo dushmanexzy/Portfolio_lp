@@ -15,6 +15,11 @@
 html {
   box-sizing: border-box; }
 
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
 body {
   margin: 0;
   padding: 0;
@@ -28,6 +33,7 @@ img {
   max-width: 100%; }
 
 a {
+  color: inherit;
   text-decoration: none; }
 
 .flex {
@@ -43,17 +49,24 @@ a {
 
 .container {
   margin: 0 auto;
-  padding: 0 20px;
-  max-width: 940px; }
+  padding: 0 10px;
+  max-width: 960px; }
 
 .header {
   font-size: 18px;
   font-weight: 700;
+  color: #828282;
   line-height: 22px; }
 
 .header__container {
-  padding-top: 29px; }
+  padding-top: 29px;
+  padding-bottom: 36px;
+  border-bottom: 1px solid #828282; }
 
 .nav__list {
   justify-content: space-between;
   align-items: center; }
+
+.nav__item:hover,
+.nav__item:active {
+  color: #070707; }
