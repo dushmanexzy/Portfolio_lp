@@ -1,0 +1,20 @@
+.about__container {
+  padding-top: 115px;
+  padding-bottom: 106px;
+
+  background-color: #f6f6f6;
+}
+
+.about__desc {
+  margin: 0 auto;
+  max-width: 480px;
+
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #070707;
+}
+
+.about__desc:not(:last-child) {
+  margin-bottom: 44px;
+}
