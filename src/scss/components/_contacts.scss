@@ -1,0 +1,83 @@
+.contacts {
+  padding-top: 80px;
+  padding-bottom: 110px;
+
+  text-align: center;
+
+  background-color: #fff;
+}
+
+.contacts .section-title {
+  margin-bottom: 24px;
+}
+
+.contacts__desc {
+  margin-bottom: 32px;
+
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #070707;
+}
+
+.contacts__btn {
+  margin-bottom: 86px;
+
+  width: 180px;
+  height: 42px;
+
+  border-radius: 21px;
+
+  font-size: 18px;
+  line-height: 22px;
+
+  text-align: center;
+  color: #fff;
+
+  background-color: #070707;
+}
+
+.contacts__list {
+  justify-content: space-between;
+  align-items: center;
+
+  width: 342px;
+
+  margin: 0 auto;
+  margin-bottom: 44px;
+}
+
+.contacts__link {
+  display: block;
+
+  width: 40px;
+  height: 40px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.linkedin {
+  background-image: url('../img/linkedin.png');
+}
+
+.instagram {
+  background-image: url('../img/instagram.png');
+}
+
+.behance {
+  background-image: url('../img/behance.png');
+}
+
+.dribble {
+  background-image: url('../img/dribble.png');
+}
+
+.contacts__smalldesc {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+
+  color: #828282;
+}
