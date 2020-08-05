@@ -80,7 +80,7 @@ a {
 
 .main-info__container {
   padding-top: 34px;
-  padding-bottom: 78px;
+  padding-bottom: 106px;
   justify-content: space-between;
   flex-wrap: wrap;
   background-color: #fff; }
@@ -102,10 +102,9 @@ a {
   display: block; }
 
 .main-info__lang {
-  margin-top: 15px;
-  padding-bottom: 10px;
+  padding-top: 50px;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
   transform: rotate(-90deg); }
 
 .main-info__lang .active {
@@ -113,25 +112,20 @@ a {
 
 .main-info__lang--ru,
 .main-info__lang--eng {
-  position: relative;
   font-size: 16px;
   line-height: 20px;
   color: #828282;
   border: none;
   background-color: #fff; }
 
-.main-info__lang--eng::before {
-  position: absolute;
-  left: 0;
-  bottom: 50%;
-  transform: translateY(50%);
-  content: '';
-  width: 2px;
-  height: 16px;
-  background-color: #070707; }
+.main-info__lang--span {
+  margin: 0 3px;
+  font-size: 20px;
+  line-height: 30px;
+  color: #070707; }
 
 .about__container {
-  padding-top: 115px;
+  padding-top: 87px;
   padding-bottom: 106px;
   background-color: #f6f6f6; }
 
