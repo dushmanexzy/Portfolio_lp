@@ -59,3 +59,22 @@ a {
   text-align: center;
   color: #070707;
 }
+
+.burger {
+  display: inline-block;
+  margin-top: 9px;
+  // display: none;
+}
+
+.burger__line {
+  display: flex;
+
+  width: 33px;
+  height: 4px;
+
+  background-color: #000;
+}
+
+.burger__line:not(:last-child) {
+  margin-bottom: 4px;
+}

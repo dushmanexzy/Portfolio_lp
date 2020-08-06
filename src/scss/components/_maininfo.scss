@@ -8,9 +8,15 @@
   background-color: #fff;
 }
 
+.main-info__text {
+  flex-wrap: wrap;
+  flex-basis: 61%;
+}
+
 .main-info__title {
   margin: 0;
   margin-bottom: 36px;
+  margin-right: auto;
 
   font-size: 47px;
   line-height: 59px;

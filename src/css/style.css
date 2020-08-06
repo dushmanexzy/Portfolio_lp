@@ -60,6 +60,19 @@ a {
   text-align: center;
   color: #070707; }
 
+.burger {
+  display: inline-block;
+  margin-top: 9px; }
+
+.burger__line {
+  display: flex;
+  width: 33px;
+  height: 4px;
+  background-color: #000; }
+
+.burger__line:not(:last-child) {
+  margin-bottom: 4px; }
+
 .header {
   padding-bottom: 72px;
   font-size: 18px;
@@ -91,9 +104,14 @@ a {
   color: #070707;
   background-color: #fff; }
 
+.main-info__text {
+  flex-wrap: wrap;
+  flex-basis: 61%; }
+
 .main-info__title {
   margin: 0;
   margin-bottom: 36px;
+  margin-right: auto;
   font-size: 47px;
   line-height: 59px;
   flex-basis: 10%; }
@@ -294,3 +312,70 @@ a {
   font-weight: 500;
   line-height: 17px;
   color: #828282; }
+
+@media (max-width: 575px) {
+  .header {
+    padding-bottom: 45px; }
+  .header__container {
+    padding-left: 30px;
+    padding-right: 30px; }
+  .header__nav {
+    display: none; }
+  .main-info__title {
+    margin-bottom: 14px; }
+  .main-info__desc {
+    margin-top: 0;
+    margin-bottom: 40px; }
+  .main-info__lang {
+    display: none; }
+  .main-info__img {
+    align-self: center; }
+  .about__container {
+    padding-top: 47px;
+    padding-bottom: 72px; }
+    .about__container .section-title {
+      margin-bottom: 35px; }
+  .about__desc {
+    max-width: 80%; }
+  .skills__container {
+    padding-top: 52px;
+    padding-bottom: 100px; }
+    .skills__container .section-title {
+      margin-bottom: 36px; }
+  .skills__subtitle {
+    margin-bottom: 78px; }
+  .skills__list {
+    padding: 0 20px;
+    justify-content: center;
+    align-items: center; }
+  .skills__item {
+    flex-basis: 166px;
+    align-self: center;
+    margin-bottom: 80px; }
+    .skills__item:last-child {
+      margin-bottom: 0; }
+  .portfolio__container {
+    padding-top: 48px;
+    padding-bottom: 84px; }
+    .portfolio__container .section-title {
+      margin-bottom: 72px; }
+  .portfolio__item:not(:last-child) {
+    margin-bottom: 82px; }
+  .portfolio__img {
+    margin-bottom: 26px; }
+  .contacts {
+    padding-top: 50px;
+    padding-bottom: 98px; }
+    .contacts .section-title {
+      margin-bottom: 30px; }
+  .contacts__desc {
+    margin-bottom: 44px; }
+  .contacts__btn {
+    margin-bottom: 48px;
+    width: 316px; }
+  .contacts__list {
+    padding: 0 14px; }
+  .contacts__smalldesc {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center; } }
