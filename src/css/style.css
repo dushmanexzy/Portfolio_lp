@@ -80,7 +80,8 @@ a {
   align-items: center; }
 
 .nav__item:hover,
-.nav__item:active {
+.nav__item:active,
+.nav__link.active {
   color: #070707; }
 
 .main-info {
