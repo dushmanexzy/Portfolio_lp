@@ -17,6 +17,10 @@
 
 .portfolio__item--block {
   margin: 0;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .portfolio__img {

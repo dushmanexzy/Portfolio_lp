@@ -46,7 +46,10 @@
             <a href="#" class="main-info__lang--eng active">ENG</a>
           </div>
 
-          <img class="main-info__img" src="img/main_photo.png" alt="Denis Novik with a beard and glasses">
+          <picture>
+            <source media="(max-width: 768px)" srcset="img/main_mobile_photo.png">
+            <img class="main-info__img" src="img/main_photo.png" alt="Denis Novik with a beard and glasses">
+          </picture>
         </section>
       </div>
     </header>
@@ -138,27 +141,34 @@
           <!-- figure class ???? -->
           <ul class="portfolio__list list-style-reset">
             <li class="portfolio__item">
-              <figure class="portfolio__item--block">
-                <img class="portfolio__img" width="936" height="510" src="/img/online_fashion_store.png"
-                  alt="Concept homepage online fashion store">
+              <figure class="portfolio__item--block flex">
+                <picture>
+                  <source media="(max-width: 575px)" srcset="img/fashion_mob.png">
+                  <img class="portfolio__img" src="img/online_fashion_store.png"
+                    alt="Concept homepage online fashion store">
+                </picture>
                 <figcaption class="portfolio__item--desc">
                   <a class="portfolio__item--link" href="#">Online fashion store - Homepage</a>
                 </figcaption>
               </figure>
             </li>
             <li class="portfolio__item">
-              <figure class="portfolio__item--block">
-                <img class="portfolio__img" width="936" height="522" src="/img/reebok_store.png"
-                  alt="Concept Reebok store">
+              <figure class="portfolio__item--block flex">
+                <picture>
+                  <source media="(max-width: 575px)" srcset="img/reebok_mob.png">
+                  <img class="portfolio__img" src="img/reebok_store.png" alt="Concept Reebok store">
+                </picture>
                 <figcaption class="portfolio__item--desc">
                   <a class="portfolio__item--link" href="#">Reebok store - Concept</a>
                 </figcaption>
               </figure>
             </li>
             <li class="portfolio__item">
-              <figure class="portfolio__item--block">
-                <img class="portfolio__img" width="936" height="522" src="/img/braun_lp.png"
-                  alt="Concept Braun Landing Page">
+              <figure class="portfolio__item--block flex">
+                <picture>
+                  <source media="(max-width: 575px)" srcset="img/braun_mob.png">
+                  <img class="portfolio__img" src="img/braun_lp.png" alt="Concept Braun Landing Page">
+                </picture>
                 <figcaption class="portfolio__item--desc">
                   <a class="portfolio__item--link" href="#">Braun Landing Page - Concept</a>
                 </figcaption>
