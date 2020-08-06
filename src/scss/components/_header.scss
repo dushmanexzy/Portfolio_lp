@@ -1,15 +1,21 @@
 .header {
+  padding-bottom: 72px;
+
   font-size: 18px;
   font-weight: 700;
   color: #828282;
   line-height: 22px;
 }
 
+.header__nav {
+  padding-bottom: 37px;
+
+  border-bottom: 1px solid #828282;
+}
+
 .header__container {
   padding-top: 29px;
   padding-bottom: 36px;
-
-  border-bottom: 1px solid #828282;
 }
 
 .nav__list {
