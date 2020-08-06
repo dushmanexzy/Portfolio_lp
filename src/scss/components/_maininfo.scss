@@ -4,6 +4,7 @@
   justify-content: space-between;
   flex-wrap: wrap;
 
+  color: #070707;
   background-color: #fff;
 }
 
@@ -58,23 +59,3 @@
 
   color: #070707
 }
-
-
-// .main-info__lang--eng::before {
-//   display: block;
-
-//   margin-left: 12px;
-//   margin-right: 2px;
-
-//   position: absolute;
-//   left: 0;
-//   bottom: 50%;
-
-//   transform: translateY(50%);
-
-//   content: '';
-//   width: 2px;
-//   height: 16px;
-
-//   background-color: #070707;
-// }
