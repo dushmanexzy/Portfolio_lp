@@ -23,7 +23,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  max-width: 1445px;
+  min-width: 375px;
   font-family: 'Gilroy', sans-serif;
   font-weight: 500;
   color: #070707;
