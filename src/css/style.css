@@ -243,12 +243,14 @@ a {
   margin-bottom: 86px;
   width: 180px;
   height: 42px;
+  border: none;
   border-radius: 21px;
   font-size: 18px;
   line-height: 22px;
   text-align: center;
   color: #fff;
-  background-color: #070707; }
+  background-color: #070707;
+  cursor: pointer; }
 
 .contacts__list {
   justify-content: space-between;
