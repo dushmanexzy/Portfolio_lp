@@ -13,7 +13,7 @@
   <div class="page-container">
     <header class="header">
       <div class="container header__container">
-        <nav class="nav header__nav">
+        <nav class="nav header__nav open">
           <ul class="nav__list flex list-style-reset">
             <li class="nav__item">
               <a href="/" class="nav__link active">Home</a>
@@ -33,7 +33,17 @@
           </ul>
         </nav>
 
-        <section class="main-info flex">
+        <button class="main-info__menu burger btn--reset" type="button">
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+        </button>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="main-info flex">
+        <div class="main-info__container container flex">
           <div class="main-info__text flex">
             <h1 class="main-info__title section-title">Denis Novik</h1>
             <p class="main-info__desc">UX | UI designer
@@ -41,27 +51,18 @@
             </p>
           </div>
 
-          <button class="main-info__menu burger btn--reset" type="button">
-            <span class="burger__line"></span>
-            <span class="burger__line"></span>
-            <span class="burger__line"></span>
-          </button>
-
           <div class="main-info__lang flex">
             <a href="#" class="main-info__lang--ru">RU</a>
             <span class="main-info__lang--span">I</span>
             <a href="#" class="main-info__lang--eng active">ENG</a>
           </div>
 
-          <picture>
+          <picture class="main-info__img">
             <source media="(max-width: 575px)" srcset="img/main_mobile_photo.png">
-            <img class="main-info__img" src="img/main_photo.png" alt="Denis Novik with a beard and glasses">
+            <img src="img/main_photo.png" alt="Denis Novik with a beard and glasses">
           </picture>
-        </section>
-      </div>
-    </header>
-
-    <main class="main">
+        </div>
+      </section>
       <section id="about" class="about">
         <div class="about__container">
           <h2 class="section-title">About me</h2>

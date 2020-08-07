@@ -1,8 +1,12 @@
 .about__container {
-  padding-top: 87px;
+  padding-top: 114px;
   padding-bottom: 106px;
 
   background-color: #f6f6f6;
+
+  .section-title {
+    margin-bottom: 20px;
+  }
 }
 
 .about__desc {

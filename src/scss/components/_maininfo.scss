@@ -1,5 +1,6 @@
 .main-info {
-  padding-top: 30px;
+  margin-top: -4px;
+  padding-bottom: 100px;
 
   justify-content: space-between;
   flex-wrap: wrap;
@@ -8,14 +9,17 @@
   background-color: #fff;
 }
 
+.main-info__container {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
 .main-info__text {
   flex-wrap: wrap;
-  flex-basis: 61%;
+  width: 61%;
 }
 
 .main-info__title {
-  margin: 0;
-  margin-bottom: 36px;
   margin-right: auto;
 
   font-size: 47px;
@@ -37,7 +41,9 @@
 }
 
 .main-info__lang {
-  padding-top: 50px;
+  display: inline-block;
+  padding-top: 90px;
+  padding-left: 10px;
 
   justify-content: center;
   align-items: center;
@@ -59,9 +65,12 @@
 }
 
 .main-info__lang--span {
-  margin: 0 3px;
   font-size: 20px;
   line-height: 30px;
 
   color: #070707
+}
+
+.main-info__img {
+  flex-basis: 100%;
 }
