@@ -60,10 +60,23 @@ a {
   color: #070707;
 }
 
+.btn--reset {
+  padding: 0;
+  margin: 0;
+
+  border: none;
+
+  color: #000;
+
+  background-color: #fff;
+
+  cursor: pointer;
+}
+
 .burger {
-  display: inline-block;
+  align-self: start;
   margin-top: 9px;
-  // display: none;
+  display: none;
 }
 
 .burger__line {
