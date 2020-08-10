@@ -35,21 +35,39 @@
 
   .burger {
     display: block;
+
     top: 58px;
     right: 30px;
     position: absolute;
+  }
 
-    .burger__line:nth-child(2) {
-      // display: none;
+  .clicked {
+    .burger__line {
+      position: absolute;
+      right: 0;
+      top: 15px;
+
+      width: 27px;
+      height: 4px;
+
+      background-color: #828282;
     }
 
     .burger__line:first-child {
-      transform: rotate();
+      transform: rotate(45deg);
+    }
+
+    .burger__line:nth-child(2) {
+      display: none;
+    }
+
+    .burger__line:last-child {
+      transform: rotate(-45deg);
     }
   }
 
-  .open {
-    // display: block;
+  .menu-open {
+    display: block;
 
     position: absolute;
     left: 0;
