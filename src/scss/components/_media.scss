@@ -1,5 +1,11 @@
-@media (max-width: 575px) {
+@media (max-width: 392px) {
+  .skills__list {
+    justify-content: center;
+    align-items: center;
+  }
+}
 
+@media (max-width: 575px) {
   // HEADER
   .header__nav {
     display: none;
@@ -131,9 +137,6 @@
 
   .skills__list {
     padding: 0 20px;
-
-    justify-content: center;
-    align-items: center;
   }
 
   .skills__item {
@@ -141,10 +144,10 @@
     align-self: center;
 
     margin-bottom: 80px;
+  }
 
-    &:last-child {
-      margin-bottom: 0;
-    }
+  .skills__item:last-child {
+    margin-bottom: 0;
   }
 
   // PORTFOLIO SECTION
@@ -193,5 +196,13 @@
     font-size: 18px;
     line-height: 22px;
     text-align: center;
+  }
+}
+
+@media (max-width: 775px) {
+  // SKILLS
+  .skills__item,
+  .skills__item:last-child {
+    margin-bottom: 40px;
   }
 }

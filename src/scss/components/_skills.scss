@@ -21,6 +21,8 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+
+  max-width: 100%;
 }
 
 .skills__item {
@@ -30,7 +32,7 @@
   justify-content: space-between;
   align-items: center;
 
-  flex-basis: 166.5px;
+  min-width: 166.5px;
   height: 206px;
 }
 
