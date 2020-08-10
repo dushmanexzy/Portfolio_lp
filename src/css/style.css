@@ -182,7 +182,7 @@ a {
   margin-bottom: 44px; }
 
 .skills__container {
-  padding-top: 60px;
+  padding-top: 90px;
   padding-bottom: 111px;
   background-color: #fff; }
 
@@ -242,7 +242,7 @@ a {
   background-color: #f6f6f6; }
 
 .portfolio__container {
-  padding-top: 80px;
+  padding-top: 106px;
   padding-bottom: 100px; }
 
 .portfolio__container .section-title {
@@ -270,8 +270,7 @@ a {
   color: #070707; }
 
 .contacts {
-  padding-top: 80px;
-  padding-bottom: 110px;
+  padding: 110px 0;
   text-align: center;
   background-color: #fff; }
 
