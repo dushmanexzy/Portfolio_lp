@@ -1,21 +1,21 @@
 @media (max-width: 575px) {
 
   // HEADER
-  .header {
-    padding-bottom: 45px;
-  }
-
-  .header__container {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-
   .header__nav {
     display: none;
   }
 
 
   // MAIN INFO SECTION
+  .main-info {
+    padding-bottom: 80px;
+  }
+
+  .main-info__container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
   .main-info__title {
     margin-bottom: 14px;
   }
@@ -35,12 +35,12 @@
 
   .burger {
     display: block;
-    top: 66px;
-    right: 66px;
+    top: 58px;
+    right: 30px;
     position: absolute;
 
     .burger__line:nth-child(2) {
-      display: none;
+      // display: none;
     }
 
     .burger__line:first-child {
@@ -49,7 +49,7 @@
   }
 
   .open {
-    display: block;
+    // display: block;
 
     position: absolute;
     left: 0;
@@ -85,7 +85,7 @@
 
   // ABOUT SECTION
   .about__container {
-    padding-top: 47px;
+    padding-top: 75px;
     padding-bottom: 72px;
 
     .section-title {
@@ -99,7 +99,7 @@
 
   // SKILLS SECTION
   .skills__container {
-    padding-top: 52px;
+    padding-top: 80px;
     padding-bottom: 100px;
 
     .section-title {
@@ -131,7 +131,7 @@
 
   // PORTFOLIO SECTION
   .portfolio__container {
-    padding-top: 48px;
+    padding-top: 77px;
     padding-bottom: 84px;
 
     .section-title {
@@ -149,7 +149,7 @@
 
   // CONTACTS FOOTER
   .contacts {
-    padding-top: 50px;
+    padding-top: 78px;
     padding-bottom: 98px;
 
     .section-title {
